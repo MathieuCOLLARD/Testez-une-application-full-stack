@@ -1,4 +1,6 @@
-# Estate
+# Project Presentation
+This project is a yoga web application in which you can log in, create yoga sessions if you are an administrator or just register for your sessions and see the details.
+Some tests are made for each fonctonality in the application, including front-end, back-end and end-to-end tests using Jest, Cypress and Jacoco.
 
 ### Spring Boot configuration : 
 - Project Type: Maven
@@ -21,6 +23,24 @@
 - Jacoco Maven Plugin for code coverage reporting and checking
 - Maven Compiler Plugin for configuring Java version compatibility to 9
 - Exclusions: Excludes specific packages from code coverage checks in Jacoco
+
+## Requirement
+
+Before running the application, ensure the following prerequisites:
+
+- Java Installation: Ensure that Java is installed on your system.
+If it's not the case, follow indications on this link :
+> https://www.java.com/fr/download/manual.jsp
+
+- Node.js and npm: Make sure Node.js and npm (Node Package Manager) are installed. You can download and install Node.js here :
+> https://nodejs.org/en
+
+
+- Angular CLI: If you plan to work on the frontend part of the application, make sure you have Angular CLI installed. You can install it using npm with the following command:
+> npm install -g @angular/cli.
+
+- Git: Ensure Git is installed on your system for cloning the project repository. You can download Git from here :
+> https://git-scm.com/
 
 ## Start the project
 
